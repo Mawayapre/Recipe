@@ -158,7 +158,11 @@ const Page = () => {
                 {(page + 1) * itemsPerPage < mealss.length && (
                     <button onClick={next} className={styles.button}>Next</button>
                 )}
-            </div>        
+            </div>   
+
+            <div className={styles.signature}>
+                Designed and developed by Mawaya
+            </div>     
         </div>
     )
 }
