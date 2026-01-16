@@ -1,0 +1,116 @@
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    background-color:rgb(250, 241, 211);
+    color: rgb(7, 2, 2);
+    position: relative;
+    padding-bottom: 8rem;
+    padding:2rem;
+}
+
+.arrow img{
+    width: 40px;
+    transition: .1s;
+}
+.arrow img:hover{
+    border: solid rgb(255, 41, 41);
+    border-radius: 5px;
+}
+
+.mealOverview{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 2rem;
+    align-items: center;
+}
+
+.image{
+    border-radius: 5px;
+    width: 70%;
+}
+
+.image img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.summary{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.name{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(252, 184, 36);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.ingredients{
+    font-size: 1.5rem;
+}
+
+.category{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    width: 90%;
+    font-size: 1.7rem;
+    margin:0 auto;
+    margin-top: 2rem;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(252, 184, 36);
+}
+
+.ingrVideo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.video{
+    max-width: 100%;
+}
+
+.vid{
+    margin: 0 auto;
+}
+
+
+@media(max-width:48rem){
+    .container{
+        width: 100%;
+    }
+
+    .mealOverview{
+        display: block;
+    }
+
+    .video{
+        width: 100%;
+        padding: 0;
+        margin-top: 1rem;
+    }
+
+    .image{
+        margin: 0 auto;
+    }
+
+    .ingrVideo{
+        display: block;
+    }
+
+
+
+}
+@media(max-width:30rem){
+
+}
