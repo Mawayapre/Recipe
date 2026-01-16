@@ -182,7 +182,6 @@
     bottom: 10px;          
     left: 50%;             
     transform: translateX(-50%); 
-    text-align: center;
     font-size: 1.2rem;
     color:rgb(97, 94, 94);         
 }

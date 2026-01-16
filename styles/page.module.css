@@ -6,6 +6,7 @@
     position: relative;
     padding-bottom: 8rem;
     padding:2rem;
+    padding-bottom: 5rem;
 }
 
 .arrow img{
@@ -82,6 +83,15 @@
 
 .vid{
     margin: 0 auto;
+}
+
+.signature {
+    position: absolute;     
+    bottom: 10px;          
+    left: 50%;             
+    transform: translateX(-50%); 
+    font-size: 1.2rem;
+    color:rgb(97, 94, 94);         
 }
 
 

@@ -100,6 +100,9 @@ const Content = ({id}) => {
                             <div></div>
                         </div>       
                     </div>
+                    <div className={styles.signature}>
+                                    Designed and developed by Mawaya
+                    </div>
                 </div>   
             ))}
         </>
