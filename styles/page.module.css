@@ -113,4 +113,8 @@
 }
 @media(max-width:30rem){
 
+    .image{
+        width: 100%;
+    }
+
 }
